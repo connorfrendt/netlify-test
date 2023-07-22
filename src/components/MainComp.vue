@@ -2,7 +2,7 @@
     <div>
         This is the main component!
         THIS IS WORKING!!! :D
-        <div id="press" v-bind:on-click="pressMe">PRESS ME!</div>
+        <div id="press" @click="pressMe">PRESS ME!</div>
     </div>
 </template>
 
@@ -19,5 +19,6 @@ export default {
 <style>
 #press {
     background-color: red;
+    display: inline-block;
 }
 </style>
