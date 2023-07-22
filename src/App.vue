@@ -1,6 +1,7 @@
 <template>
     <div id="app">
         Hello World
+        this is a test
         <MainComp />
     </div>
 </template>
