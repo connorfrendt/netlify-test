@@ -2,6 +2,7 @@
     <div id="app">
         Hello World
         this is a test
+        asdfasdf
         <MainComp />
     </div>
 </template>
